@@ -42,7 +42,7 @@
 
 		<p>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cette extension («iWebEchoppe miscellanea») embarque avec elle un gestionnaire d'erreurs et d'exceptions PHP en dernier ressort (une exception est une erreur créée sous la forme d'un objet), sous la forme d'un fichier 
-			(par ex.: infologick_error_handler_03_00_01_00.vqmod.zip). L'installation de ce gestionnaire d'échecs permet de récupérer les informations spécialisées (du type \PDOException) émise par le serveur de base de données mySQL, 
+			(par ex.: <b>infologick_error_handler_03_00_01_00.vqmod.zip</b>). L'installation de ce gestionnaire d'échecs permet de récupérer les informations spécialisées (du type \PDOException) émise par le serveur de base de données mySQL, 
 			en sus de celles généralistes (du type \Exception) gérées par la couche PHP. Dans les applications de gestion de données comme Opencart, une grande parties des erreurs proviennent du SGBDR qui les émet avec précision 
 			(ex.: "SQL syntax error", "Unknown column 'column_name' in the field list", etc). Cette information ajoute un gain de temps à l'analyse de l'erreur constatée, par rapport à son transtypage actuel (c'est le cas dans la version 3.0.2.0 d'Opencart, 
 			cause de l'écriture de ce patch vqmod dans les fichiers du cœur d'Opencart), transtypage actuel en une exception plus généraliste et qui contient donc moins de champs et fait ainsi un choix quant à ceux restant pour notifier l'utilisateur du problème advenu 
